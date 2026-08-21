@@ -22,7 +22,7 @@ O Educador Financeiro Inteligente deve possuir os seguintes recursos:  
 2. **Simulação de cenários de renda variável (meses bons e meses fracos)**  
 3. **Alertas e recomendações personalizadas para manter reservas financeiras**  
 
-A IA deve adaptar as recomendações com base em **histórico de faturamento, sazonalidade da área de atuação e metas do usuário**. 
+A IA deve adaptar as recomendações com base em **histórico de faturamento, sazonalidade da área de atuação e metas do usuário** (os dados são salvos no localStorage e as análises são geradas em tempo real pela API do Google Gemini).
 Evitar respostas como: **fórmulas matemáticas complexas, jargões genéricas ou excessivamente técnicos que não considerem a realidade dos autônomos**. 
 As sugestões devem ser apresentadas no formato **listas curtas, comparações visuais e exemplos aplicados ao dia a dia do trabalho autônomo, insights acionáveis ("Por que fazer" e "Como fazer")**.
 
