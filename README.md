@@ -153,3 +153,10 @@ Resumo dos históricos com a possibilidade de retornar ao diagnóstico completo.
 
 ---
 📎 Link do curso: [DIO.me](https://web.dio.me/home) 
+
+---
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+<img alt="Static Badge" src="https://img.shields.io/badge/license-MIT-green">
