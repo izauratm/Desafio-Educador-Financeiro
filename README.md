@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💰 Desafio Criativo: Planej-IA  
+# 💰 Desafio Criativo: Planej-AI  
 ### Prototipação do Educador Financeiro Inteligente para Autônomos - MEIs
 
 </div>
