@@ -146,7 +146,9 @@ Resposta a dúvidas ou questionamentos do usuário.
 
 ### 6. Histórico das Simulações
 ![Relatório](./src/assets/imagens/img5.png)  
-Resposta a dúvidas, questionamentos ou perguntas sobre a simulação realizada pelo usuário.
+Resumo dos históricos com a possibilidade de retornar ao diagnóstico completo.
+
+* OBS: Nessa imagem foi testado usando usuários diferentes. Mas a proposta é que o mesmo usuário simule seus objetivos!
 
 
 ---
