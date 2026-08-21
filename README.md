@@ -117,37 +117,46 @@ Evite **respostas genéricas e termos técnicos complexos**.  
 ## 🖼️ Screenshots do Projeto
 
 ### 1. Dashboard de Fluxo de Caixa  
-![Dashboard](./src/assets/img2.png)  
+![Dashboard](./src/assets/imagens/img2.png)  
 Visualização geral das entradas e saídas de dinheiro.   
 
 ---
 
 ### 2. Simulação de Cenários de Renda Variável  
-![Simulação](./src/assets/img1.png)  
+![Simulação](./src/assets/imagens/img1.png)  
 Comparativo entre meses de alta e baixa demanda, permitindo planejar reservas financeiras de forma estratégica.  
 
 ---
 ### 3. Gráfico de Reservas Financeiras  
-![Reservas](./src/assets/img6.png)  
+![Reservas](./src/assets/imagens/img6.png)  
 Exibição das reservas acumuladas ao longo dos meses, destacando a importância da disciplina financeira.  
 
 ---
 
 ### 4. Diagnóstico Financeiro  
-![Relatório](./src/assets/img3.png)  
+![Relatório](./src/assets/imagens/img3.png)  
 Resumo com indicadores de desempenho, insights acionáveis e recomendações personalizadas para o usuário.  
 
 ---
 ### 5. Chat Educador Financeiro  
-![Relatório](./src/assets/img4.png)  
+![Relatório](./src/assets/imagens/img4.png)  
 Resposta a dúvidas ou questionamentos do usuário. 
 
 ---
 
 ### 6. Histórico das Simulações
-![Relatório](./src/assets/img5.png)  
-Resposta a dúvidas, questionamentos ou perguntas sobre a simulação realizada pelo usuário.
+![Relatório](./src/assets/imagens/img5.png)  
+Resumo dos históricos com a possibilidade de retornar ao diagnóstico completo.
+
+* OBS: Nessa imagem foi testado usando usuários diferentes. Mas a proposta é que o mesmo usuário simule seus objetivos!
 
 
 ---
 📎 Link do curso: [DIO.me](https://web.dio.me/home) 
+
+---
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+<img alt="Static Badge" src="https://img.shields.io/badge/license-MIT-green">
