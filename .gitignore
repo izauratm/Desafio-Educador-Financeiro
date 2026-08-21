@@ -1,0 +1,34 @@
+# Dependências
+node_modules/
+
+# Build / Produção
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Configurações do editor
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambiente (segurança: nunca versionar chaves)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache/
+.tmp/
+
+# Testes
+coverage/
