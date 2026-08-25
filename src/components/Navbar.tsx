@@ -18,7 +18,7 @@ export const Navbar: React.FC = () => {
           className="flex items-center gap-2 text-xl font-bold text-emerald-500"
         >
           <Wallet className="w-6 h-6" />
-          Planej.
+          EduFinance.
           <span className="text-foreground">
             IA 💰 Educador Financeiro para Autônomos - MEI
           </span>
