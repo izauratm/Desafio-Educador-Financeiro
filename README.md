@@ -122,22 +122,25 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina local
 ### Pré-requisitos
 Certifique-se de ter o **Node.js** (versão 18 ou superior recomendada) e o gerenciador de pacotes **npm** (ou yarn/pnpm) instalados em seu computador.
 
-### 1. Clonar o repositório
+### Clonar o repositório
 ```bash
 git clone [https://github.com/seu-usuario/planej-ai.git](https://github.com/seu-usuario/planej-ai.git)
 cd planej-ai
+```
 
-### 2.Instalar as dependências
+### Instalar as dependências
 ```
 npm install
-
-### 3. Configurar as variáveis de ambiente
+```
+### Configurar as variáveis de ambiente
 Crie um arquivo chamado .env.local na raiz do projeto baseando-se nas necessidades da API (como a chave de acesso do Google Gemini):
+```
 VITE_GEMINI_API_KEY=sua_chave_da_api_aqui
-
-### 4. Rodar o projeto em ambiente de desenvolvimento
+```
+### Rodar o projeto em ambiente de desenvolvimento
+```
 npm run dev
-
+```
 O projeto estará rodando localmente (geralmente em http://localhost:5173).
 Abra o link no seu navegador para testar a aplicação.
 
