@@ -142,6 +142,7 @@ VITE_GEMINI_API_KEY=sua_chave_da_api_aqui
 npm run dev
 ```
 O projeto estará rodando localmente (geralmente em http://localhost:5173).
+
 Abra o link no seu navegador para testar a aplicação.
 
 ---
