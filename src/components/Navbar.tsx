@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
           <Wallet className="w-6 h-6" />
           EduFinance.
           <span className="text-foreground">
-            IA 💰 Educador Financeiro para Autônomos - MEI
+            IA 💰 Educador Financeiro para Autônomos - MEIs
           </span>
         </Link>
 

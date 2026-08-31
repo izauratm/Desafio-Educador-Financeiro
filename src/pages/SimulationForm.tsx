@@ -61,7 +61,7 @@ export const SimulationForm: React.FC = () => {
     <main className="max-w-2xl mx-auto py-8 px-4">
       <section className="bg-card text-card-foreground p-8 rounded-2xl shadow-sm border border-border transition-colors">
         <h1 className="text-2xl font-bold text-foreground mb-2 flex items-center gap-2">
-          <Sparkles className="text-primary" /> Planejador para Autônomos - MEI
+          <Sparkles className="text-primary" /> Simulador EduFinance.IA
         </h1>
         <p className="text-muted-foreground text-sm mb-6">
           Preencha seus dados para receber um plano financeiro estratégico sob medida.
