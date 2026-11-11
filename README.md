@@ -149,40 +149,45 @@ Abra o link no seu navegador para testar a aplicação.
 
 ## 🖼️ Screenshots do Projeto
 
-### 1. Dashboard de Fluxo de Caixa  
-![Dashboard](./src/assets/imagens/img2.png)  
+### 1. Página Inicial com Informações sobre o Educador Financeiro
+![Dashboard](./src/assets/imagens/img1.png) 
+
+---
+### 2. Formulário para Preenchimento dos Dados
+![Dashboard](./src/assets/imagens/img2.png) 
+
+---
+### 3. Dashboard de Fluxo de Caixa  
+![Dashboard](./src/assets/imagens/img4.png)  
 Visualização geral das entradas e saídas de dinheiro.   
 
 ---
 
-### 2. Simulação de Cenários de Renda Variável  
-![Simulação](./src/assets/imagens/img1.png)  
+### 4. Simulação de Cenários de Renda Variável  
+![Simulação](./src/assets/imagens/img5.png)  
 Comparativo entre meses de alta e baixa demanda, permitindo planejar reservas financeiras de forma estratégica.  
 
 ---
-### 3. Gráfico de Reservas Financeiras  
+### 5. Gráfico de Reservas Financeiras  
 ![Reservas](./src/assets/imagens/img6.png)  
 Exibição das reservas acumuladas ao longo dos meses, destacando a importância da disciplina financeira.  
 
 ---
 
-### 4. Diagnóstico Financeiro  
-![Relatório](./src/assets/imagens/img3.png)  
+### 6. Diagnóstico Financeiro  
+![Relatório](./src/assets/imagens/img7.png)  
 Resumo com indicadores de desempenho, insights acionáveis e recomendações personalizadas para o usuário.  
 
 ---
-### 5. Chat Educador Financeiro  
-![Relatório](./src/assets/imagens/img4.png)  
+### 7. Chat Educador Financeiro  
+![Relatório](./src/assets/imagens/img8.png)  
 Resposta a dúvidas ou questionamentos do usuário. 
 
 ---
 
-### 6. Histórico das Simulações
-![Relatório](./src/assets/imagens/img5.png)  
+### 8. Histórico das Simulações
+![Relatório](./src/assets/imagens/img3.png)  
 Resumo dos históricos com a possibilidade de retornar ao diagnóstico completo.
-
-* OBS: Nessa imagem foi testado usando usuários diferentes. Mas a proposta é que o mesmo usuário simule seus objetivos!
-
 
 ---
 📎 Link do curso: [DIO.me](https://web.dio.me/home) 
