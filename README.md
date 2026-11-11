@@ -103,10 +103,11 @@ Evite **respostas genéricas e termos técnicos complexos**.  
 ## 🏷️ Estilos Utilizados  
 
 ### 🎨 Paleta de Cores  
-- **Verde (#4CAF50)** → entradas de dinheiro  
-- **Vermelho (#F44336)** → saídas de dinheiro  
-- **Azul (#2196F3)** → metas e reservas  
-- **Cinza (#9E9E9E)** → elementos neutros  
+- **Esmeralda / Verde (`#10b981`)** → Entradas de dinheiro e sucesso financeiro
+- **Vermelho (`#ef4444`)** → Saídas e despesas
+- **Roxo / Índigo (`#502993` / `#4f46e5`)** → Cor primária, marca e identidade da IA
+- **Azul (`#3b82f6`)** → Saldos líquidos e gráficos complementares
+- **Slate / Cinza (`#64748b` a `#f8fafc`)** → Elementos neutros, fundos e bordas
 
 ### ✍️ Tipografia  
 - **Roboto / Open Sans** → foco em legibilidade  
