@@ -148,7 +148,7 @@ export const ChatWithEducator: React.FC<ChatProps> = ({
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Ex: Como posso cortar R$ 500 sem afetar meu trabalho?"
-          className="flex-1 border border-slate-200 rounded-xl px-4 py-2 text-sm focus:outline-none focus:border-emerald-500"
+          className="flex-1 bg-input text-foreground border border-border rounded-xl px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ring placeholder:text-muted-foreground/60 transition-colors"
         />
         <button
           type="submit"

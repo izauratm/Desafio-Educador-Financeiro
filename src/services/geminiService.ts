@@ -18,6 +18,7 @@ export async function generateFinancialDiagnosis(data: {
   personalExpenses: number;
   professionalExpenses: number;
   financialGoal: string;
+  targetValue: number;
 }): Promise<string> {
   const prompt = `
     Atue como um Educador Financeiro Inteligente, profissional, estratégico, objetivo, prático e encorajador, especialista em autônomos, freelancers e MEIs.
@@ -29,12 +30,14 @@ export async function generateFinancialDiagnosis(data: {
     - Despesas Pessoais: R$ ${data.personalExpenses}
     - Despesas Profissionais: R$ ${data.professionalExpenses}
     - Meta Financeira: ${data.financialGoal}
+    - Valor Alvo / Custo da Meta: R$ ${data.targetValue}
 
     Elabore um diagnóstico personalizado contendo:
     1. Análise Clara da Instabilidade de Renda e separação de contas.
-    2. Plano de Reserva para meses fracos (baseado nos números informados).
-    3. Insights acionáveis no formato "Por que fazer" e "Como fazer".
-    4. Linguagem simples, sem jargões complexos, direta ao ponto e motivadora.
+    2. Plano estratégico detalhado para alcançar o Valor Alvo da Meta (R$ ${data.targetValue}) com base na renda e despesas informadas.
+    3. Plano de Reserva para meses fracos (baseado nos números informados).
+    4. Insights acionáveis no formato "Por que fazer" e "Como fazer".
+    5. Linguagem simples, sem jargões complexos, direta ao ponto e motivadora
   `;
 
   try {

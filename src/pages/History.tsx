@@ -99,6 +99,17 @@ export const History: React.FC = () => {
                       R$ {sim.badMonthIncome.toLocaleString("pt-BR")}
                     </strong>
                   </span>
+               {sim.targetValue !== undefined && sim.targetValue !== null && (
+                    <>
+                      <span>•</span>
+                      <span>
+                        Valor da Meta:{" "}
+                        <strong className="text-indigo-600 dark:text-indigo-400">
+                          R$ {Number(sim.targetValue).toLocaleString("pt-BR")}
+                        </strong>
+                      </span>
+                    </>
+                  )}
                 </div>
               </div>
 

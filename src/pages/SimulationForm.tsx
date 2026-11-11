@@ -14,7 +14,8 @@ export const SimulationForm: React.FC = () => {
     badMonthIncome: '',
     personalExpenses: '',
     professionalExpenses: '',
-    financialGoal: ''
+    financialGoal: '',
+    targetValue: ''
   });
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -29,7 +30,8 @@ export const SimulationForm: React.FC = () => {
         badMonthIncome: Number(form.badMonthIncome),
         personalExpenses: Number(form.personalExpenses),
         professionalExpenses: Number(form.professionalExpenses),
-        financialGoal: form.financialGoal
+        financialGoal: form.financialGoal,
+        targetValue: Number(form.targetValue) 
       };
 
       const diagnosis = await generateFinancialDiagnosis(payload);
@@ -167,7 +169,7 @@ export const SimulationForm: React.FC = () => {
 
           <div>
             <label htmlFor="financialGoal" className="block text-sm font-medium text-foreground mb-1">
-              Qual sua meta financeira principal?
+              Qual sua meta financeira principal e prazo?
             </label>
             <input
               id="financialGoal"
@@ -177,6 +179,21 @@ export const SimulationForm: React.FC = () => {
               placeholder="Ex: Criar reserva de emergência de 3 meses ou comprar equipamento novo"
               value={form.financialGoal}
               onChange={e => setForm({ ...form, financialGoal: e.target.value })}
+              className={inputStyles}
+            />
+          </div>
+          <div>
+            <label htmlFor="targetValue" className="block text-sm font-medium text-foreground mb-1">
+              Valor Alvo / Custo da Meta (R$)
+            </label>
+            <input
+              id="targetValue"
+              name="targetValue"
+              required
+              type="number"
+              placeholder="Ex: 10000 para reserva ou equipamento"
+              value={form.targetValue}
+              onChange={e => setForm({ ...form, targetValue: e.target.value })}
               className={inputStyles}
             />
           </div>

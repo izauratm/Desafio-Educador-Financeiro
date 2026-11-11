@@ -17,6 +17,7 @@ export interface SimulationData {
   personalExpenses: number;
   professionalExpenses: number;
   financialGoal: string;
+  targetValue: number;
   diagnosis?: string;
   chatHistory?: ChatMessage[];
 }

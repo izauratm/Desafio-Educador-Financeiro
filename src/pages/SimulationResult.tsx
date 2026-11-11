@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { SimulationData } from "../types/finance";
 import { ChatWithEducator } from "../components/ChatWithEducator";
-import { ArrowLeft, TrendingUp, TrendingDown, ShieldCheck } from "lucide-react";
+import { ArrowLeft, TrendingUp, TrendingDown, ShieldCheck, Target } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import {
   BarChart,
@@ -141,8 +141,15 @@ export const SimulationResult: React.FC = () => {
               <p className="font-bold text-foreground">R$ {totalExpenses}</p>
             </div>
           </div>
+          <div className="bg-secondary/50 p-4 rounded-xl border border-border flex items-center gap-3">
+            <Target className="text-indigo-500 w-8 h-8 shrink-0" aria-hidden="true" />
+            <div>
+              <p className="text-xs text-muted-foreground">Valor Alvo da Meta</p>
+              <p className="font-bold text-foreground">R$ {simulation.targetValue}</p>
+            </div>
+          </div>
         </div>
-
+        
         {/* Gráfico 1: Mês Bom vs. Mês Fraco */}
         <section aria-label="Gráfico comparativo de rendas mensais" className="mb-8">
           <h2 className="text-lg font-semibold mb-4">Comparativo: Mês Bom vs. Mês Fraco</h2>
